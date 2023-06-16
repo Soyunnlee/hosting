@@ -1,0 +1,32 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		// Type Check //
+		"allowUnreachableCode": false, //접근 불가능한 코드 허용 안함
+		"noImplicitAny": true, //암시적으로 any 할당이 불가
+		"noFallthroughCasesInSwitch": true, //switch 구문에서 break, return 반드시 명시
+		"noImplicitOverride": true, //메서드 오버라이드 시 override 키워드 명시
+		"noImplicitReturns": true, //암시적으로 반환 불가
+		"noUnusedLocals": true, //사용하지 않는 지역 변수 허용 안함
+		"noUnusedParameters": true, //사용하지 않는 파라미터 허용 안함
+		"strictNullChecks": true, //null, undefined에 대한 점검 필수
+
+		// Emit Check //
+		"removeComments": true, //JavaScript 변환 시 주석 제거
+
+		// 프로젝트 생성 시 자동 생성된 tsconfig 항목
+		// JavaScript Check //
+		"allowJs": false, //.js 파일 import 허용하지 않음
+		"checkJs": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true
+	}
+	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
+	//
+	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
+	// from the referenced tsconfig.json - TypeScript does not merge them in
+}
