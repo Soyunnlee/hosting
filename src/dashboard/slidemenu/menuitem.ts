@@ -1,76 +1,109 @@
 //#region Import
 import {
 	ComputerDesktop,
-	CloudArrowDown,
-	CursorArrowRipple,
+	CursorArrowRays,
 	Cube,
-	PlusCircle,
-	ViewfinderCircle
+	PencilSquare,
+	QueueList,
+	CloudArrowDown,
+	Identification
 } from 'svelte-hero-icons';
 //#endregion
 
 //#region Constant
 const menu = [
 	{
-		title: 'API',
-		icon: CloudArrowDown,
-		link: '/api'
+		title: 'DashBord',
+		icon: ComputerDesktop,
+		link: '/dashboard',
+		isdepthMenu: false
 	},
-	{
-		title: 'Event',
-		icon: CursorArrowRipple,
-		link: '/event'
-	},
+	// {
+	// 	title: 'API',
+	// 	icon: CloudArrowDown,
+	// 	link: '/api',
+	// 	isdepthMenu: true,
+	// 	isdepthMenuOpen: false,
+	// 	depthMenu: [
+	// 		{ title: 'bulletin1', link: '/api/bulletin1' },
+	// 		{ title: 'bulletin2', link: '/api/bulletin2' }
+	// 	]
+	// },
 	{
 		title: 'Button',
-		icon: PlusCircle,
-		link: '/button'
-	},
-	{
-		title: 'Input',
-		icon: PlusCircle,
-		link: '/input'
-	},
-	{
-		title: 'Form',
 		icon: Cube,
-		link: '/form'
+		link: '/button',
+		isdepthMenu: true,
+		depthMenu: [
+			{ title: 'Buttons', link: '/button/buttons' },
+			{ title: 'designbtn', link: '/button/designbtn' },
+			{ title: 'alarmbtn', link: '/button/alarmbtn' }
+		]
 	},
 	{
 		title: 'Card',
-		icon: ComputerDesktop,
-		link: '/card'
+		icon: Identification,
+		link: '/card',
+		isdepthMenu: true,
+		isdepthMenuOpen: false,
+		depthMenu: [{ title: 'chart1', link: '/admin/chart/chart1' }]
 	},
 	{
-		title: 'Date Picker',
-		icon: ComputerDesktop,
-		link: '/datepicker'
+		title: 'Input',
+		icon: PencilSquare,
+		link: '/input',
+		isdepthMenu: true,
+		isdepthMenuOpen: false,
+		depthMenu: [{ title: 'chart1', link: '/admin/chart/chart1' }]
 	},
 	{
-		title: 'Clock',
-		icon: ComputerDesktop,
-		link: '/clock'
+		title: 'Form',
+		icon: QueueList,
+		link: '/form',
+		isdepthMenu: false
 	},
 	{
-		title: 'Chart',
-		icon: ComputerDesktop,
-		link: '/chart'
-	},
-	{
-		title: 'Table',
-		icon: ComputerDesktop,
-		link: '/table'
-	},
-	{
-		title: 'Grid',
-		icon: ComputerDesktop,
-		link: '/grid'
-	},
-	{
-		title: 'Report',
-		icon: ComputerDesktop,
-		link: '/report'
+		title: 'Event',
+		icon: CursorArrowRays,
+		link: '/event',
+		isdepthMenu: true,
+		isdepthMenuOpen: false,
+		depthMenu: [
+			{ title: 'Slidemenu', link: '/event/slidemenu' },
+			{ title: 'Modal', link: '/event/modal' }
+		]
 	}
+
+	// {
+	// 	title: 'Date Picker',
+	// 	icon: ComputerDesktop,
+	// 	link: '/datepicker'
+	// },
+	// {
+	// 	title: 'Clock',
+	// 	icon: ComputerDesktop,
+	// 	link: '/clock'
+	// },
+	// {
+	// 	title: 'Chart',
+	// 	icon: ComputerDesktop,
+	// 	link: '/chart'
+	// },
+	// {
+	// 	title: 'Table',
+	// 	icon: ComputerDesktop,
+	// 	link: '/table'
+	// },
+	// {
+	// 	title: 'Grid',
+	// 	icon: ComputerDesktop,
+	// 	link: '/grid'
+	// },
+	// {
+	// 	title: 'Report',
+	// 	icon: ComputerDesktop,
+	// 	link: '/report'
+	// }
 ];
 
 export default menu;

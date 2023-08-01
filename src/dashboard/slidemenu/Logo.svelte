@@ -4,12 +4,14 @@
 	//#endregion
 </script>
 
-<div class=" sticky top-0 flex h-24 items-center justify-center bg-[#16191E] duration-300 2xl:h-28">
+<div
+	class=" sticky top-0 flex h-24 items-center justify-center 2xl:h-28 dark:bg-[#16191E] bg-white"
+>
 	{#if $isSlideMenuOpen}
 		<!-- Slide Menu_Open Logo -->
-		<img src="https://i.esdrop.com/d/f/KRQCESGJO3/JVY3MWknS9.png" class="w-40" alt="Enoch Ndika" />
+		<img src="https://i.esdrop.com/d/f/KRQCESGJO3/06arp5O8Hj.png" class="w-40" alt="Enoch Ndika" />
 	{:else}
 		<!-- Slide Menu_Close Logo -->
-		<img src="https://i.esdrop.com/d/f/KRQCESGJO3/PKy74afL13.png" class="w-14" alt="Enoch Ndika" />
+		<img src="https://i.esdrop.com/d/f/KRQCESGJO3/JpdwDzRNUg.png" class="w-14" alt="Enoch Ndika" />
 	{/if}
 </div>

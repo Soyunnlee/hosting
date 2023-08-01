@@ -13,10 +13,9 @@
 			left: 'left-0 ',
 			right: 'right-0 lg:left-0'
 		},
-		container: `pb-32 lg:pb-12 `,
 		close: `duration-[600ms] w-24 2xl:w-28`,
 		open: `duration-300 w-52 2xl:w-56`,
-		default: `min-h-screen overflow-y-auto text-white top-0 absolute bg-[#16191E] lg:block lg:z-40 dark:bg-gray-900`
+		default: `text-white top-0 absolute lg:block lg:z-40`
 	};
 	// #endregion
 
@@ -31,9 +30,9 @@
 <div
 	use:clickOutside
 	on:click_outside={closeSidenav}
-	class="{style.default} {$isSlideMenuOpen ? style.open : style.close} h-screen"
+	class="{style.default} {$isSlideMenuOpen ? style.open : style.close}"
 >
-	<div class={style.container}>
+	<div class="h-[calc(100vh-96px)]">
 		<Logo />
 		<MenuItem />
 	</div>

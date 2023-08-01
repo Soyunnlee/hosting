@@ -5,7 +5,7 @@ import { writable } from 'svelte/store';
 //#region Constant
 const isSlideMenuOpen = writable(false);
 
-const isDarkMode = writable(true);
+const isDarkMode = writable(false);
 
 export { isSlideMenuOpen, isDarkMode };
 //#endregion

@@ -6,7 +6,7 @@ Author: Alexey Schebelev
 Description: Components of Svelte Framework
 */
 
-export function hljsDefineSvelte(hljs) {
+export function hljsDefineSvelte(hljs: any) {
 	return {
 		subLanguage: 'xml',
 		contains: [

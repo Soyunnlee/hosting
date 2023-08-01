@@ -5,21 +5,28 @@
 	//#endregion
 
 	//#region property
-	export let id: string;
-	export let role: string;
+
 	//#endregion
 </script>
 
-<div class=" overflow-hidden bg-gray-900">
+<div class="overflow-hidden">
 	<header>
-		<Header {id} {role} />
+		<Header />
 	</header>
-	<nav>
+	<nav class="">
 		<Slidemenu />
 	</nav>
-	<section>
-		<div class="ml-24">
-			<slot />
-		</div>
+	<section class="ml-24 overflow-y-auto">
+		<slot />
 	</section>
 </div>
+
+<style lang="postcss">
+	::-webkit-scrollbar {
+		@apply w-[8px];
+	}
+
+	::-webkit-scrollbar-thumb {
+		@apply rounded-[40px] bg-gray-400;
+	}
+</style>
