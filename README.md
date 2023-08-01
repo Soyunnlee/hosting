@@ -1,6 +1,6 @@
 # svelte-dashboard-template
-Svelte DashBoard Template에서 사용하는 Component 및 기능 관련 사용 가이드 Document
 
+Svelte DashBoard Template에서 사용하는 Component 및 기능 관련 사용 가이드 Document
 
 # create-svelte
 
@@ -48,7 +48,7 @@ You can preview the production build with `npm run preview`.
 구체적인 프로젝트 설정 방식
 
 ```bash
-npm install -D tailwindcss postcss autoprefixer prettier-plugin-tailwindcss
+npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
 
