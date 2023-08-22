@@ -48,6 +48,7 @@
 		"highlight.js": "^11.8.0",
 		"highlightjs-svelte": "^1.0.6",
 		"scichart": "^3.1.346",
-		"svelte-speedometer": "^1.1.0"
+		"svelte-speedometer": "^1.1.0",
+		"svelte-tiny-linked-charts": "^1.3.0"
 	}
 }
