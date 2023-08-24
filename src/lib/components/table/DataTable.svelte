@@ -5,7 +5,7 @@
 	import Th from '$lib/components/table/pagination/common/Th.svelte';
 	import ThFilter from '$lib/components/table/pagination/common/ThFilter.svelte';
 	import Pagination from '$lib/components/table/pagination/common/Pagination.svelte';
-	import MediaQuery from '../MediaQuery.svelte';
+	// import MediaQuery from '../MediaQuery.svelte';
 	// #endregion
 
 	//#region Interface
@@ -111,7 +111,7 @@
 					</tr>
 				{/each}
 
-				<MediaQuery query="(min-width: 481px) and (max-width: 1535px)" let:matches>
+				<!-- <MediaQuery query="(min-width: 481px) and (max-width: 1535px)" let:matches>
 					{#if matches}
 						{#each Array(pageRowCount - $tableRows.length) as _}
 							<tr>
@@ -132,7 +132,7 @@
 							</tr>
 						{/each}
 					{/if}
-				</MediaQuery>
+				</MediaQuery> -->
 			{/if}
 		</tbody>
 	</table>
