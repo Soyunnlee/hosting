@@ -45,6 +45,7 @@
 		"@roylabs/svelte-datepicker-ts": "github:RoyLabsTeam/svelte-datepicker-ts",
 		"@skeletonlabs/skeleton": "^1.7.1",
 		"dayjs": "^1.11.8",
+		"firebase-tools": "^12.5.1",
 		"highlight.js": "^11.8.0",
 		"highlightjs-svelte": "^1.0.6",
 		"scichart": "^3.1.346",
