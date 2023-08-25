@@ -1,0 +1,1 @@
+import{S as r,i as l,s as c,k as d,q as m,l as p,m as _,r as h,h as o,b as f,E as u,J as n}from"../chunks/index.62a8ee71.js";function v(i){let e,s;return{c(){e=d("div"),s=m("modal")},l(a){e=p(a,"DIV",{});var t=_(e);s=h(t,"modal"),t.forEach(o)},m(a,t){f(a,e,t),u(e,s)},p:n,i:n,o:n,d(a){a&&o(e)}}}class g extends r{constructor(e){super(),l(this,e,null,v,c,{})}}export{g as component};
