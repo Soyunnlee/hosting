@@ -29,7 +29,7 @@
 	
 		<!-- 가동율 -->
 		<article class="bg-[#141517] w-[25%] rounded-xl {style.cardshadow}">
-			<OperationCard/>
+			<OperationCard/>https://velog.io/@zunyange/npm-install-%EC%98%A4%EB%A5%98-npm-install-%EC%95%88%EB%90%A0%EB%95%8C
 		</article>
 		<!-- 생산 -->
 		<article class="bg-[#141517] w-[28%] rounded-lg mt-10 h-auto {style.cardshadow}">
